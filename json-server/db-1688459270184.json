@@ -1,0 +1,9 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "vietanh",
+      "pass": "vanhvanh1json-server --watch db.json"
+    }
+  ]
+}

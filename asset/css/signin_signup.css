@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header {
+
+    margin: 20px 0px;
+    text-align: center;
+}
+hr{
+    color: #f8f9fa;
+    border-width: 1px;
+}
+:root{
+    --ryan: #0dcaf0;
+    --ryan_d:  #02837c;
+    --dark: #212529;
+    --ryan_l: #73f9f2;
+}
+.conainer-footer h3{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.f-signin{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 343px;
+    height: 40px;
+
+}
+.container{
+    margin: 20px 0px ;
+}
+.container h3{
+    text-align: center;
+}
+.container-form .signin-btn{
+    width: 343px;
+    height: 40px;
+    background-color: var(--ryan_l);
+    border: none;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+.f-pass{
+    margin: 10px 0px;
+}
+.conainer-footer{
+    background-color: #fff;
+    text-align: center;
+    margin: 20px 0px;
+}
+.signin-btn:hover{
+    background-color: var(--ryan_d);
+}
+.conainer-footer .signup{
+    background-color: #f8f9fa;
+}
+p{
+    font-size: small;
+}
+.container-form{
+    text-align: left;
+   margin: 0 auto;
+    line-height: 1.5;
+}
+.container .container-form p{
+    margin: 15px 0px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+.conainer-footer .signup{
+    width: 343px;
+    height: 40px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+.conainer-footer p{
+    margin: 10px 0px;
+}
+.conainer-footer a{
+    font-size: medium;
+    color: #212529;
+}
+h3{
+    font-weight: 900;
+}
+.conainer-footer .signup:hover{
+    background-color: black;
+    color: white;
+}
+.forgot-pass{
+    color: #212529; 
+    font-size: 14px;
+}
+.policy-term{
+    color:#8c8c8c 
+}
+.forgot-pass:hover{
+    color: #198754;
+}
+.policy-term:hover{
+    color: #0d6efd;
+}
+.morong{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.link{
+    color:black;
+}
+.link:hover{
+    color: #198754;
+}
